@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #15171a;
+  --ink-soft: #20242a;
+  --ink-line: #34383f;
+  --paper: #f6f7f5;
+  --paper-dim: #eceee9;
+  --white: #ffffff;
+  --accent: #cddc2e;
+  --accent-bright: #e2f050;
+  --accent-dark: #a9bb1a;
+  --flag-green: #009444;
+  --flag-white: #ffffff;
+  --flag-red: #ed1c24;
+  --muted: #6b7178;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-line: var(--ink-line);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-white: var(--white);
+  --color-accent: var(--accent);
+  --color-accent-bright: var(--accent-bright);
+  --color-accent-dark: var(--accent-dark);
+  --color-flag-green: var(--flag-green);
+  --color-flag-white: var(--flag-white);
+  --color-flag-red: var(--flag-red);
+  --color-muted: var(--muted);
+  --font-display: var(--font-manrope);
+  --font-sans: var(--font-inter);
+}
+
+/* Lenis recommended base styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+* {
+  scrollbar-color: var(--color-accent) var(--color-ink);
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 999px;
+  border: 2px solid var(--color-ink);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  overflow-x: clip;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-sans), ui-sans-serif, sans-serif;
+}
+
+.italy-stripe {
+  display: flex;
+  height: 3px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 999px;
+}
+.italy-stripe span {
+  flex: 1;
+}
+.italy-stripe span:nth-child(1) {
+  background: var(--color-flag-green);
+}
+.italy-stripe span:nth-child(2) {
+  background: var(--color-flag-white);
+}
+.italy-stripe span:nth-child(3) {
+  background: var(--color-flag-red);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.mask-fade-x {
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+/* Blueprint grid texture used behind dark sections */
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgba(205, 220, 46, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(205, 220, 46, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.14) translate3d(-1.5%, -1.5%, 0);
+  }
+}
+.animate-kenburns {
+  animation: kenburns 24s ease-out forwards;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 36s linear infinite;
+}

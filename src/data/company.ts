@@ -1,17 +1,17 @@
 export const company = {
-  name: "Windows Style",
-  nameSuffix: "Trading",
+  name: "VetroCasa",
+  nameSuffix: "",
   tagline: "Finestre e porte in PVC su misura, da oltre 15 anni a Rimini",
   description:
     "Vendita e installazione di finestre, porte, portoncini blindati e sistemi scorrevoli in PVC. Qualità certificata, prezzi di fabbrica, consulenza e posa in opera incluse.",
-  phone: "+39 0541 172 6740",
-  phoneSecondary: "+39 352 0814 264",
-  whatsapp: "+39 0541 172 6740",
-  whatsappLink: "https://wa.me/390541172674",
-  email: "info@windowsstyletrading.it",
+  phone: "+39 0541 234 567",
+  phoneSecondary: "+39 333 123 4567",
+  whatsapp: "+39 333 123 4567",
+  whatsappLink: "https://wa.me/393331234567",
+  email: "info@vetrocasa-rimini.it",
   address: {
-    line1: "\"GROS\" Via Coriano, 58",
-    line2: "PAD. W78",
+    line1: "Via Emilia, 120",
+    line2: "",
     city: "Rimini",
   },
   hours: [

@@ -8,9 +8,9 @@ import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import { company } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "Chi siamo — Windows Style Trading",
+  title: "Chi siamo — VetroCasa",
   description:
-    "Windows Style Trading: vendita e installazione di finestre e porte in PVC a Rimini, da oltre 15 anni al fianco dei nostri clienti.",
+    "VetroCasa: vendita e installazione di finestre e porte in PVC a Rimini, da oltre 15 anni al fianco dei nostri clienti.",
 };
 
 const values = [
@@ -26,7 +26,7 @@ export default function ChiSiamoPage() {
       <PageHero
         eyebrow="Chi siamo"
         title="Un punto vendita, l'esperienza di un'officina artigiana"
-        description="Windows Style Trading nasce a Rimini con un obiettivo semplice: rendere accessibile la qualità degli infissi in PVC, senza intermediari e senza compromessi sulla posa."
+        description="VetroCasa nasce a Rimini con un obiettivo semplice: rendere accessibile la qualità degli infissi in PVC, senza intermediari e senza compromessi sulla posa."
         image="/images/about-workshop.jpg"
       />
 
@@ -51,10 +51,10 @@ export default function ChiSiamoPage() {
               Dal magazzino all&apos;installazione, seguiamo ogni fase
             </h2>
             <p className="mt-5 text-[15px] leading-relaxed text-muted">
-              Il nostro showroom si trova all&apos;interno del centro &quot;GROS&quot;, in Via Coriano
-              a Rimini: qui puoi vedere e toccare con mano i profili, i vetri e le finiture prima
-              di scegliere. Lavoriamo con privati, amministratori di condominio e imprese edili,
-              seguendo ogni commessa dal sopralluogo alla garanzia post-installazione.
+              Il nostro showroom si trova in Via Emilia a Rimini: qui puoi vedere e toccare con
+              mano i profili, i vetri e le finiture prima di scegliere. Lavoriamo con privati,
+              amministratori di condominio e imprese edili, seguendo ogni commessa dal sopralluogo
+              alla garanzia post-installazione.
             </p>
           </Reveal>
 

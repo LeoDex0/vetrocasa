@@ -5,9 +5,9 @@ import { Reveal } from "@/components/ui/Reveal";
 import ContactForm from "@/components/sections/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contatti — Windows Style Trading",
+  title: "Contatti — VetroCasa",
   description:
-    "Contatta Windows Style Trading a Rimini per un preventivo gratuito su finestre, porte e sistemi scorrevoli in PVC.",
+    "Contatta VetroCasa a Rimini per un preventivo gratuito su finestre, porte e sistemi scorrevoli in PVC.",
 };
 
 const mapQuery = encodeURIComponent(
@@ -115,7 +115,7 @@ export default function ContattiPage() {
       <section className="mx-auto max-w-7xl px-6 pb-24 lg:px-10">
         <Reveal className="overflow-hidden rounded-3xl border border-ink/8">
           <iframe
-            title="Mappa showroom Windows Style Trading"
+            title="Mappa showroom VetroCasa"
             src={`https://www.google.com/maps?q=${mapQuery}&output=embed`}
             className="h-[400px] w-full grayscale"
             loading="lazy"

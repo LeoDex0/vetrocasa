@@ -24,7 +24,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Windows Style Trading — Finestre e Porte in PVC a Rimini",
+  title: "VetroCasa — Finestre e Porte in PVC a Rimini",
   description:
     "Finestre, porte, portoncini blindati e sistemi scorrevoli in PVC su misura. Vendita e installazione a Rimini, prezzi di fabbrica e consulenza gratuita.",
   keywords: [

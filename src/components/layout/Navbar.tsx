@@ -100,7 +100,7 @@ export default function Navbar() {
         )}
       >
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
-          <Link href="/" aria-label="Windows Style Trading — Home">
+          <Link href="/" aria-label="VetroCasa — Home">
             <Logo />
           </Link>
 

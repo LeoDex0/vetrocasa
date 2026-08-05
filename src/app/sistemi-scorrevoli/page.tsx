@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CategoryPage from "@/components/catalog/CategoryPage";
 
 export const metadata: Metadata = {
-  title: "Sistemi scorrevoli — Windows Style Trading",
+  title: "Sistemi scorrevoli — VetroCasa",
   description:
     "Sistemi scorrevoli e alzanti-scorrevoli in PVC per grandi luci vetrate. Vendita e installazione a Rimini.",
 };

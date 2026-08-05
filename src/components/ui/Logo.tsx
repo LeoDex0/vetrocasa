@@ -31,7 +31,7 @@ export default function Logo({
               light ? "text-paper" : "text-ink"
             )}
           >
-            WINDOWS STYLE
+            VETROCASA
           </span>
           <span
             className={cn(
@@ -39,7 +39,7 @@ export default function Logo({
               light ? "text-paper/60" : "text-muted"
             )}
           >
-            TRADING
+            FINESTRE &amp; PORTE
           </span>
         </span>
       </span>

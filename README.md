@@ -1,6 +1,6 @@
 # VetroCasa
 
-Website for a PVC windows and doors company in Rimini, Italy.
+Website for a PVC windows and doors company.
 
 **Live:** https://windows-style-trading.vercel.app
 

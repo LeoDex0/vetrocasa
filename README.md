@@ -2,7 +2,9 @@
 
 Website for a PVC windows and doors company.
 
-**Live:** https://windows-style-trading.vercel.app
+![Preview](.github/preview.jpg)
+
+**Live:** [windows-style-trading.vercel.app](https://windows-style-trading.vercel.app)
 
 ## Stack
 

@@ -4,7 +4,7 @@ import CategoryPage from "@/components/catalog/CategoryPage";
 export const metadata: Metadata = {
   title: "Sistemi scorrevoli — VetroCasa",
   description:
-    "Sistemi scorrevoli e alzanti-scorrevoli in PVC per grandi luci vetrate. Vendita e installazione a Rimini.",
+    "Sistemi scorrevoli e alzanti-scorrevoli in PVC per grandi luci vetrate. Vendita e installazione.",
 };
 
 export default function Page() {

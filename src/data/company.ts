@@ -1,14 +1,14 @@
 export const company = {
   name: "VetroCasa",
   nameSuffix: "",
-  tagline: "Finestre e porte in PVC su misura, da oltre 15 anni a Rimini",
+  tagline: "Finestre e porte in PVC su misura, da oltre 15 anni",
   description:
     "Vendita e installazione di finestre, porte, portoncini blindati e sistemi scorrevoli in PVC. Qualità certificata, prezzi di fabbrica, consulenza e posa in opera incluse.",
   phone: "+39 0541 234 567",
   phoneSecondary: "+39 333 123 4567",
   whatsapp: "+39 333 123 4567",
   whatsappLink: "https://wa.me/393331234567",
-  email: "info@vetrocasa-rimini.it",
+  email: "info@vetrocasa.it",
   address: {
     line1: "Via Emilia, 120",
     line2: "",

@@ -33,7 +33,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="font-sans text-xs font-semibold uppercase tracking-[0.35em] text-accent"
         >
-          Rimini · dal 2010
+          Dal 2010
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}

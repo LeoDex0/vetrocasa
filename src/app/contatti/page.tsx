@@ -7,7 +7,7 @@ import ContactForm from "@/components/sections/ContactForm";
 export const metadata: Metadata = {
   title: "Contatti — VetroCasa",
   description:
-    "Contatta VetroCasa a Rimini per un preventivo gratuito su finestre, porte e sistemi scorrevoli in PVC.",
+    "Contatta VetroCasa per un preventivo gratuito su finestre, porte e sistemi scorrevoli in PVC.",
 };
 
 const mapQuery = encodeURIComponent(

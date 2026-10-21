@@ -54,7 +54,7 @@ export default function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
           rows={4}
           className="w-full rounded-xl border border-ink/12 bg-white px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-accent-dark"
-          placeholder="Es. 4 finestre in PVC 120x140 per un appartamento a Rimini"
+          placeholder="Es. 4 finestre in PVC 120x140 per un appartamento"
         />
       </div>
       <button

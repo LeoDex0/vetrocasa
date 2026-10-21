@@ -18,7 +18,7 @@ const points = [
   {
     icon: Wrench,
     title: "Posa in opera inclusa",
-    text: "Sopralluogo, misurazione e installazione a cura dei nostri tecnici, in tutta la provincia di Rimini.",
+    text: "Sopralluogo, misurazione e installazione a cura dei nostri tecnici, in tutta la provincia.",
   },
   {
     icon: Award,

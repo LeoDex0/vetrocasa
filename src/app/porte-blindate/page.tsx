@@ -4,7 +4,7 @@ import CategoryPage from "@/components/catalog/CategoryPage";
 export const metadata: Metadata = {
   title: "Porte blindate — VetroCasa",
   description:
-    "Porte blindate con classe di sicurezza certificata e serratura multipunto. Vendita e installazione a Rimini.",
+    "Porte blindate con classe di sicurezza certificata e serratura multipunto. Vendita e installazione.",
 };
 
 export default function Page() {
